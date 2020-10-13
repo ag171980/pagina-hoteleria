@@ -1,0 +1,26 @@
+Tenemos 4 pestañas
+Inicio: 
+Esta pestaña tiene un header con el logo del apart hotel y un menu para navegar por las distintas pestañas.
+Un div con un carrusel de imagenes ilustrativas del lugar.
+Un section con los distintos tipos de servicios que brindan.
+Un footer con los nombres de los desarrolladores de la pagina(nosotros) y un link que lleve al repositorio.
+
+Instalaciones: 
+Esta pestaña tiene un header con el logo del apart hotel y un menu para navegar por las distintas pestañas.
+Un div con un carrusel de imagenes ilustrativas del lugar. 
+Un section que contenga un buscador para filtrar los distintos tipos de instalaciones y articles que contienen una imagen
+titulo, una breve descripcion y un boton de ver mas.
+Un footer con los nombres de los desarrolladores de la pagina(nosotros) y un link que lleve al repositorio.
+
+Sobre Nosotros: 
+Esta pestaña tiene un header con el logo del apart hotel y un menu para navegar por las distintas pestañas.
+Un div con un carrusel de imagenes ilustrativas del lugar. 
+Un section con articles dentro que contienen informacion sobre el apart hotel.
+Un footer con los nombres de los desarrolladores de la pagina(nosotros) y un link que lleve al repositorio.
+
+Contacto:
+Esta pestaña tiene un header con el logo del apart hotel y un menu para navegar por las distintas pestañas.
+Un div con un carrusel de imagenes ilustrativas del lugar. 
+Un section con un formulario de contacto que pide email, asunto y mensaje.
+Un div con informacion variada como los metodos de pago, email, redes sociales y telefonos.
+Un footer con los nombres de los desarrolladores de la pagina(nosotros) y un link que lleve al repositorio.
