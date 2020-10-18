@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../img/logo.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <script src="https://kit.fontawesome.com/5b23b3e9e6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/carrousel.css">
+    <link rel="stylesheet" href="../css/contacto.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="../img/logo-hotel.png" height="75" alt="">
+        </div>
+        <div class="menu">
+            <a href="">Inicio</a>
+            <a href="">Instalaciones</a>
+            <a href="">Sobre Nosotros</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+    </header>
+    <div class="slide-contenedor">
+        <div class="miSlider fade">
+            <img src="../img/imagen-11.JPG" alt="">
+        </div>
+        <div class="miSlider fade">
+            <img src="../img/imagen-14.jpg" alt="">
+        </div>
+        <div class="miSlider fade">
+            <img src="../img/imagen-16.jpg" alt="">
+        </div>
+        <div class="direcciones">
+            <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+            <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
+        </div>
+        <div class="barras">
+            <span class="barra active" onclick="posicionSlide(1)"></span>
+            <span class="barra" onclick="posicionSlide(2)"></span>
+            <span class="barra" onclick="posicionSlide(3)"></span>
+        </div>
+    </div>
+    <div class="carrousel-title">
+        <h1>PANORAMA'S SELECT</h1>
+        <p>Un lugar diferente para un buen encuentro</p>
+    </div>
+    <header>
+        <div class="logo">
+            <img src="../img/logo-hotel.png" height="75" alt="">
+        </div>
+        <div class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="">Instalaciones</a>
+            <a href="">Sobre Nosotros</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+    </header>
+
+
+    <section>
+        <h2 id="contacto">Contacto</h2>
+        <p>Dejanos tus consultas sobre reservas y/o habitaciones, te contestaremos a la brevedad via email</p>
+        <form class="formulario" id="datos-formulario" action="">
+            <label class="formulario_label" for="email">Email</label>
+            <input type="email" class="formulario_input" name="email" id="email" required />
+            <label class="formulario_label" for="asunto">Asunto</label>
+            <input type="text" class="formulario_input" name="asunto" id="asunto" required />
+            <label class="formulario_label" for="mensaje">Mensaje</label>
+            <textarea name="mensaje" id="mensaje" class="formulario_input" cols="30" rows="10"></textarea>
+            <input type="submit" name="submit" class="formulario_button" value="Enviar">
+        </form>
+        <a href="mensajes.html">Ver mensajes ingresado</a>
+    </section>
+
+    <div class="informacion">
+        <div class="informacion-box">
+            <h3>Metodos de pago</h3>
+            <img src="../img/pagos.png" height="200" alt="">
+        </div>
+        <div class="informacion-box">
+            <h3>Redes Sociales</h3>
+            <div class="social">
+                <i class="far fa-envelope"></i>
+                <a target="_blank" href="mailto:email@gmail.com">email@gmail.com</a>
+            </div>
+            <div class="social">
+                <i class="fab fa-facebook"></i>
+                <a target="_blank" href="https://www.facebook.com/">Facebook</a>
+            </div>
+            <div class="social">
+                <i class="fab fa-instagram"></i>
+                <a target="_blank" href="https://www.instagram.com/">Instagram</a>
+            </div>
+            <div class="social">
+                <i class="fab fa-whatsapp"></i>
+                <a target="_blank" href="https://wa.link/t0c70p">+54 9 1122334455</a>
+            </div>
+        </div>
+        <div class="informacion-box">
+            <h3>Direccion</h3>
+            <div class="direccion">
+                <i class="fas fa-map-marker-alt"></i>
+                <a target="_blank"
+                    href="https://www.google.com.ar/maps/place/Panorama+select+apart+hotel/@-32.0389584,-59.1193508,9z/data=!4m8!1m2!2m1!1spanorama's+select!3m4!1s0x95ae2dced4c65313:0x57d1b7c66be578fc!8m2!3d-32.2672721!4d-58.2229833">Ruta
+                    135 km 2,5- (Barrio San Juan 1ro). Bv. Fernandéz y Los Charrúas</a>
+            </div>
+        </div>
+        <div class="informacion-box">
+            <h3>Telefono</h3>
+            <div class="telefono">
+                <i class="fas fa-phone-alt"></i>
+                <a href="tel:+5491122334455">+54 9 112233 4455</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Desarrollado por Alexis Gutierrez, Ailin Baudin y Sebastian Rost</p>
+    </footer>
+
+    <script src="../js/slider.js"></script>
+    <script src="../js/input.js"></script>
+    <script src="../js/contacto.js"></script>
+</body>
+
+</html>

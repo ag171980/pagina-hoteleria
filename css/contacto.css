@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section h2 {
+    color: #1EBAFD;
+    text-decoration: underline;
+    font-size: 35px;
+    margin: 20px auto;
+    font-family: 'Signika Negative', sans-serif;
+    text-align: center;
+}
+
+section p {
+    color: #1EBAFD;
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+    margin: 20px auto;
+}
+
+.formulario {
+    margin: 3px auto;
+    width: auto;
+    background-color: #858585;
+    padding: 1em;
+    padding: 0 auto;
+    border-radius: 4px;
+}
+
+.formulario_label,
+.formulario_input,
+.formulario_button {
+    padding: 1px;
+    display: block;
+}
+
+.formulario_label {
+    font-size: 17px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 17px;
+    margin-left: 15px;
+    transition: 0.2s;
+    color: #4E4E4E;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.formulario_input {
+    width: 30vw;
+    font-size: 15px;
+    border: 2px solid #4D4D4D;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    transition: 0.2s all;
+    color: #1EBAFD;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.formulario_input:focus .formulario_label {
+    margin-top: -150px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.fijar {
+    margin-top: 3px;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.formulario .formulario_button {
+    width: 32.2vw;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #1EBAFD;
+    font-size: 17px;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+
+/*----DIV INFORMACION----*/
+.informacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
+    background-color: #0038A5;
+}
+
+.informacion .informacion-box {
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 0 50px;
+    width: 50vw;
+    text-align: center;
+    color: #1EBAFD;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.informacion .informacion-box h3 {
+    font-size: 33px;
+}
+
+.informacion-box .social,
+.informacion-box .direccion,
+.informacion-box .telefono {
+    display: flex;
+    padding: 10px 15px;
+    font-size: 21px;
+}
+
+.informacion-box .social a {
+    color: #1EBAFD;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.informacion-box .direccion {
+    display: flex;
+    align-items: center;
+    margin: 25px auto;
+
+}
+
+.informacion-box .direccion a {
+    color: #1EBAFD;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.informacion-box .telefono {
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    margin: 5vh 0;
+}
+
+.informacion-box .telefono a {
+    color: #1EBAFD;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Signika Negative', sans-serif;
+    text-align: center;
+}

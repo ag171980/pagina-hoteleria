@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap');
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+header .menu {
+    margin-right: 50px;
+}
+
+header .menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    padding: 25px 25px;
+    font-family: 'Signika Negative', sans-serif;
+    transition: 0.2s all;
+}
+
+header .menu a:hover {
+    background-color: black;
+    color: white;
+
+}
