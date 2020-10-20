@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../img/logo.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instalaciones</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/carrousel.css">
+    <link rel="stylesheet" href="../css/instalaciones.css">
+    <script src="https://kit.fontawesome.com/5b23b3e9e6.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="../img/logo-hotel.png" height="75" alt="">
+        </div>
+        <nav class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="instalaciones.html">Instalaciones</a>
+            <a href="sobreNosotros.html">Sobre Nosotros</a>
+            <a href="contacto.html">Contacto</a>
+            <div class="menu-btn">
+                <div class="menu-btn_burger"></div>
+            </div>
+            <div class="desplegable">
+                <a href="index.html">Inicio</a>
+                <a href="instalaciones.html">Instalaciones</a>
+                <a href="sobreNosotros.html">Sobre Nosotros</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+        </nav>
+    </header>
+    <div class="slide-contenedor">
+        <div class="miSlider fade">
+            <img src="../img/imagen-11.JPG" alt="">
+        </div>
+        <div class="miSlider fade">
+            <img src="../img/imagen-14.jpg" alt="">
+        </div>
+        <div class="miSlider fade">
+            <img src="../img/imagen-16.jpg" alt="">
+        </div>
+        <div class="direcciones">
+            <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+            <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
+        </div>
+        <div class="barras">
+            <span class="barra active" onclick="posicionSlide(1)"></span>
+            <span class="barra" onclick="posicionSlide(2)"></span>
+            <span class="barra" onclick="posicionSlide(3)"></span>
+        </div>
+    </div>
+    <div class="carrousel-title">
+        <h1>PANORAMA'S SELECT</h1>
+        <p>Un lugar diferente para un buen encuentro</p>
+    </div>
+    <section>
+        <h2>Instalaciones</h2>
+        <div class="buscador">
+            <form class="formulario">
+                <label class="formulario_label" for="buscar">Buscar...</label>
+                <input type="text" class="formulario_input" name="buscar" id="buscar" required>
+                <button class="formulario_button"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+        <article>
+            <div class="instalacion">
+                <div class="imagen-instalacion">
+                    <img src="../img/imagen-12.jpg" alt="">
+                </div>
+                <div class="texto-instalacion">
+                    <h3>Lorem Ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor blanditiis placeat est nobis
+                        totam voluptate molestiae molestias vero eligendi assumenda</p>
+                </div>
+                <div class="boton-instalacion">
+                    <button>Ver Más</button>
+                </div>
+            </div>
+            <div class="instalacion">
+                <div class="imagen-instalacion">
+                    <img src="../img/imagen-13.jpg" alt="">
+                </div>
+                <div class="texto-instalacion">
+                    <h3>Lorem Ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor blanditiis placeat est nobis
+                        totam voluptate molestiae molestias vero eligendi assumenda</p>
+                </div>
+                <div class="boton-instalacion">
+                    <button>Ver Más</button>
+                </div>
+            </div>
+            <div class="instalacion">
+                <div class="imagen-instalacion">
+                    <img src="../img/imagen-17.jpg" alt="">
+                </div>
+                <div class="texto-instalacion">
+                    <h3>Lorem Ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor blanditiis placeat est nobis
+                        totam voluptate molestiae molestias vero eligendi assumenda</p>
+                </div>
+                <div class="boton-instalacion">
+                    <button>Ver Más</button>
+                </div>
+            </div>
+            <div class="instalacion">
+                <div class="imagen-instalacion">
+                    <img src="../img/imagen-15.jpg" alt="">
+                </div>
+                <div class="texto-instalacion">
+                    <h3>Lorem Ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor blanditiis placeat est nobis
+                        totam voluptate molestiae molestias vero eligendi assumenda</p>
+                </div>
+                <div class="boton-instalacion">
+                    <button>Ver Más</button>
+                </div>
+            </div>
+        </article>
+    </section>
+    <footer>
+        <p>Desarrollado por Alexis Gutierrez, Ailin Baudin y Sebastian Rost</p>
+    </footer>
+    <script src="../js/input.js"></script>
+    <script src="../js/slider.js"></script>
+    <script src="../js/menu.js"></script>
+
+</body>
+
+</html>

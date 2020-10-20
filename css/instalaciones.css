@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+section h2 {
+    color: #1EBAFD;
+    text-decoration: underline;
+    font-size: 35px;
+    margin: 20px auto;
+    font-family: 'Signika Negative', sans-serif;
+    text-align: center;
+}
+
+.buscador {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.formulario_label,
+.formulario_input,
+.formulario_button {
+    padding: 1px;
+    display: block;
+}
+
+.formulario_label {
+    font-size: 17px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 17px;
+    margin-left: 70px;
+    transition: 0.2s;
+    color: #4E4E4E;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.formulario_input {
+    width: 30vw;
+    font-size: 15px;
+    border: 1px solid #4D4D4D;
+    margin-left: 55px;
+    margin-bottom: 30px;
+    padding: 20px;
+    outline: none;
+    border-radius: 10px;
+    transition: 0.2s all;
+    color: #1EBAFD;
+    background-color: #D6D6D6;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.formulario_input:focus .formulario_label {
+    margin-top: -150px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.fijar {
+    margin-top: 3px;
+    font-size: 13px;
+    margin-left: 65px;
+}
+
+.formulario .formulario_button {
+    height: 15%;
+    padding: 15px;
+    position: relative;
+    left: -55px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #1EBAFD;
+    font-size: 25px;
+    transition: 0.2s all;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.formulario .formulario_button:hover {
+    background-color: #1E92C4;
+    cursor: pointer;
+}
+
+article {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0 auto;
+}
+
+.instalacion {
+    width: 45%;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.instalacion .imagen-instalacion img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.instalacion .texto-instalacion {
+    padding: 10px 15px;
+}
+
+.instalacion .texto-instalacion h3 {
+    color: #1EBAFD;
+    font-size: 25px;
+    padding: 10px 0;
+}
+
+.instalacion .texto-instalacion p {
+    color: #1EBAFD;
+}
+
+.instalacion .boton-instalacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.instalacion .boton-instalacion button {
+    background-color: #1EBAFD;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 17px;
+    padding: 10px 15px;
+    margin-right: 25px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Signika Negative', sans-serif;
+    text-align: center;
+}
+
+@media (max-width:1024px) {
+    .instalacion {
+        width: 70%;
+    }
+
+    .formulario_input {
+        width: 50vw;
+    }
+}
+
+@media (max-width:768px) {
+    .instalacion {
+        width: 90%;
+    }
+}
+@media (max-width:600px) {
+    article {
+        grid-template-columns: auto;
+        margin: 0 auto;
+    }
+    .instalacion{
+        width: 50vw;
+    }
+}
+@media (max-width:425px) {
+    .instalacion{
+        width: 80vw;
+    }
+}
