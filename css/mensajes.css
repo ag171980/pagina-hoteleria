@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+form input {
+    width: 30vw;
+    padding: 15px 30px;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.container-items {
+    width:s 60vw;
+    margin: 10px;
+    background-color: #A9A9A9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item {
+    background-color: white;
+    padding: 10px;
+    margin: 25px;
+}
+
+.cantidad {
+    display: flex;
+    flex-direction: row;
+}

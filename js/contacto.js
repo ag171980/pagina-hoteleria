@@ -42,16 +42,16 @@ class Interface {
 
             let contenido = document.createElement('div');
             contenido.innerHTML = `
-            <div class="card text-center mb-4">
-                <div class="card-body d-flex flex-row justify-content-between align-items-center">
-                    <div class="content-text d-flex flex-column">
-                        <div class="d-flex flex-row">
+           
+                <div class="item">
+                    <div>
+                        <div>
                             <strong>Email</strong>:${x.email}
                         </div>
-                        <div class="d-flex flex-row">
+                        <div>
                             <strong>Asunto</strong>:${x.asunto}
                         </div>
-                        <div class="d-flex flex-row">
+                        <div>
                             <strong>Mensaje</strong>:${x.mensaje}
                         </div>
                     </div>
@@ -60,7 +60,7 @@ class Interface {
                     </div>
                     
                 </div>
-            </div>
+            
             `;
             //Anido lo recorrido con el datos-list que ya tengo.
             gridBody ? gridBody.appendChild(contenido) : gridBody = '';
@@ -93,37 +93,36 @@ class Interface {
         for (let s = 0; s < contact.length; s++) {
             if (contact[s].email == obj) {
                 divNew.innerHTML += `
-                <div class="card text-center mb-4">
-                    <div class="card-body d-flex flex-row justify-content-between align-items-center">
-                        <div class="content-text d-flex flex-column">
-                            <div class="d-flex flex-row">
+                
+                    <div class="item">
+                        <div>
+                            <div>
                                 <strong>Email</strong>:${contact[s].email} 
                             </div>
-                            <div class="d-flex flex-row">
+                            <div>
                                 <strong>Asunto</strong>:${contact[s].asunto}
                             </div>
-                            <div class="d-flex flex-row">
+                            <div>  
                                 <strong>Mensaje</strong>:${contact[s].mensaje}
                             </div>
                         </div>
                         <div class="content-text">
                             <button class="btn btn-danger btn-xs" id="eliminar" name="eliminar">X</button>
                         </div>
-                    </div>
-                </div>`;
+                    </div>`;
                 cantSearch++;
 
             } else if (obj == '') {
-                divNew.innerHTML += `
-                    <div>
+                divNew.innerHTML += `s
+                    <div class="item">
                         <div>
-                            <div class="item">
+                            <div>
                                 <strong>Email</strong>:${contact[s].email} 
                             </div>
-                            <div class="item">
+                            <div>
                                 <strong>Asunto</strong>:${contact[s].asunto}
                             </div>
-                            <div class="item">
+                            <div>
                                 <strong>Mensaje</strong>:${contact[s].mensaje}
                             </div>
                         </div>

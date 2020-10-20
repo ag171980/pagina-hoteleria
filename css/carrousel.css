@@ -29,6 +29,7 @@
     height: 100%;
     position: absolute;
     top: 0;
+    z-index: 8;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -96,4 +97,21 @@
     transform: translate(-50%, -50%);
     font-family: 'Signika Negative', sans-serif;
     font-size: 35px;
+}
+
+@media (max-width:768px) {
+    .carrousel-title{
+        font-size: 30px;
+    } 
+    .carrousel-title p{
+        font-size: 25px;
+    }
+}
+@media (max-width:581px) {
+    .carrousel-title{
+        font-size: 25px;
+    } 
+    .carrousel-title p{
+        font-size: 20px;
+    }
 }

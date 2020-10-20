@@ -35,6 +35,7 @@ section p {
     padding: 1em;
     padding: 0 auto;
     border-radius: 4px;
+    box-shadow: 0px 4px 15px -2px rgba(0, 0, 0, 0.75);
 }
 
 .formulario_label,
@@ -91,7 +92,13 @@ section p {
     color: white;
     background-color: #1EBAFD;
     font-size: 17px;
+    transition: 0.2s all;
     font-family: 'Signika Negative', sans-serif;
+}
+
+.formulario .formulario_button:hover {
+    background-color: #1E92C4;
+    cursor: pointer;
 }
 
 
@@ -106,7 +113,7 @@ section p {
 
 .informacion .informacion-box {
     background-color: rgba(0, 0, 0, 0.4);
-    margin: 0 50px;
+    margin: 10px 50px;
     width: 50vw;
     text-align: center;
     color: #1EBAFD;
@@ -157,8 +164,27 @@ section p {
     padding: 0 10px;
 }
 
+@media(max-width:1024px) {
+    .informacion {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
 
+    .informacion .informacion-box {
+        width: auto;
+    }
+}
 
+@media(max-width:614px) {
+    .informacion {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 5px;
+    }
+    .informacion .informacion-box{
+        margin: 10px 10px;
+    }
+}
 
 footer {
     background-color: black;

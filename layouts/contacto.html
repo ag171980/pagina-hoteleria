@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <script src="https://kit.fontawesome.com/5b23b3e9e6.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/carrousel.css">
     <link rel="stylesheet" href="../css/contacto.css">
@@ -17,11 +18,23 @@
         <div class="logo">
             <img src="../img/logo-hotel.png" height="75" alt="">
         </div>
-        <div class="menu">
-            <a href="">Inicio</a>
+        <nav class="menu">
+            <a href="index.html">Inicio</a>
             <a href="">Instalaciones</a>
             <a href="">Sobre Nosotros</a>
             <a href="contacto.html">Contacto</a>
+            <div class="menu-btn">
+                <div class="menu-btn_burger"></div>
+            </div>
+            <div class="desplegable">
+                <a href="index.html">Inicio</a>
+                <a href="">Instalaciones</a>
+                <a href="">Sobre Nosotros</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+        </nav>
+
+
         </div>
     </header>
     <div class="slide-contenedor">
@@ -48,18 +61,6 @@
         <h1>PANORAMA'S SELECT</h1>
         <p>Un lugar diferente para un buen encuentro</p>
     </div>
-    <header>
-        <div class="logo">
-            <img src="../img/logo-hotel.png" height="75" alt="">
-        </div>
-        <div class="menu">
-            <a href="index.html">Inicio</a>
-            <a href="">Instalaciones</a>
-            <a href="">Sobre Nosotros</a>
-            <a href="contacto.html">Contacto</a>
-        </div>
-    </header>
-
 
     <section>
         <h2 id="contacto">Contacto</h2>
@@ -124,6 +125,7 @@
     <script src="../js/slider.js"></script>
     <script src="../js/input.js"></script>
     <script src="../js/contacto.js"></script>
+    <script src="../js/menu.js"></script>
 </body>
 
 </html>
