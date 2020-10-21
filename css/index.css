@@ -1,31 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-    font-family: 'lato';
+	font-family: "lato";
 }
 
 .titulo {
-    padding: 40px 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+	padding: 40px 0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
 }
 
-.titulo h2 {
-    font-size: 35px;
-    font-family: 'Signika Negative', sans-serif;
-    color: #1EBAFD;
+.titulo h2,
+h3 {
+	font-size: 35px;
+	font-family: "Signika Negative", sans-serif;
+	color: #1ebafd;
 }
 
 .titulo i {
-    font-size: 35px;
-    color: #1EBAFD;
-    padding: 0 5px;
+	font-size: 35px;
+	color: #1ebafd;
+	padding: 0 5px;
+}
+.contenedor {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.shadow {
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+	margin: 1.5rem 0 1.5rem 0;
+	padding: 1.5rem;
+	position: relative;
+	width: 100%;
+	flex: 0 0 41.666667%;
+	max-width: 41.666667%;
+	line-height: 2em;
+}
+.m-t-b {
+	margin: 10px 0 15px 0;
+	text-align: center;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	padding: 10px;
+	font-size: 18px;
+	font-family: "Signika Negative", sans-serif;
+	text-align: center;
+}
+@media (max-width: 768px) {
+	.row {
+		display: block;
+		margin: 0 10% 0 10%;
+	}
+	.shadow {
+		max-width: 100%;
+	}
 }
