@@ -108,7 +108,7 @@ section p {
     flex-direction: row;
     justify-content: center;
     padding: 15px;
-    background-color: #0038A5;
+    background-color:#0f3057;
 }
 
 .informacion .informacion-box {
@@ -118,10 +118,21 @@ section p {
     text-align: center;
     color: #1EBAFD;
     font-family: 'Signika Negative', sans-serif;
+    padding: 20px 0;
+}
+
+.titulo-icono-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-icono {
+    margin-left: 10px;
 }
 
 .informacion .informacion-box h3 {
-    font-size: 33px;
+    font-size: 28px;
 }
 
 .informacion-box .social,
@@ -162,6 +173,8 @@ section p {
     color: #1EBAFD;
     text-decoration: none;
     padding: 0 10px;
+    width: 100%;
+    text-align: center;
 }
 
 @media(max-width:1024px) {
