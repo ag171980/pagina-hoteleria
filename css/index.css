@@ -50,6 +50,7 @@ h3 {
 	flex: 0 0 41.666667%;
 	max-width: 41.666667%;
 	line-height: 2em;
+	border-radius: 10px;
 }
 .m-t-b {
 	margin: 10px 0 15px 0;
@@ -63,6 +64,9 @@ footer {
 	font-size: 18px;
 	font-family: "Signika Negative", sans-serif;
 	text-align: center;
+}
+.ml {
+	margin-left: 5%;
 }
 @media (max-width: 768px) {
 	.row {
