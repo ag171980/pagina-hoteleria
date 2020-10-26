@@ -7,9 +7,14 @@
 }
 
 body {
-	font-family: "lato";
+	font-family: "Signika Negative", sans-serif;
+	background-color:#cff6e4de !important;
 }
 
+li{
+	list-style:  none;
+	color: #222831;
+}
 .titulo {
 	padding: 40px 0;
 	display: flex;
@@ -30,11 +35,13 @@ h3 {
 	color: #1ebafd;
 	padding: 0 5px;
 }
+
 .contenedor {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
+
 }
 .row {
 	display: flex;
@@ -54,7 +61,7 @@ h3 {
 }
 .m-t-b {
 	margin: 10px 0 15px 0;
-	text-align: center;
+	margin-left: 1rem;
 }
 
 footer {

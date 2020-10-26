@@ -6,10 +6,11 @@
 }
 
 section {
-    margin: 50px auto;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #cff6e4de;
 }
 
 section h2 {
@@ -20,6 +21,8 @@ section h2 {
     font-family: 'Signika Negative', sans-serif;
     text-align: center;
 }
+
+
 
 section p {
     color: #1EBAFD;
@@ -101,6 +104,12 @@ section p {
     cursor: pointer;
 }
 
+.link_mensajes{
+    margin-top: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #7f93b8;
+}
 
 /*----DIV INFORMACION----*/
 .informacion {
@@ -119,6 +128,10 @@ section p {
     color: #1EBAFD;
     font-family: 'Signika Negative', sans-serif;
     padding: 20px 0;
+}
+
+.tarjetas_img {
+margin-top: 10px;
 }
 
 .titulo-icono-contenedor {
