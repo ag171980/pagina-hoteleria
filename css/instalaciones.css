@@ -5,13 +5,15 @@
     padding: 0;
     font-family: 'Signika Negative', sans-serif;
 }
-
+body{
+    background-color:#DBE9F3;
+}
 section h2 {
     color: #1EBAFD;
     text-decoration: underline;
     font-size: 35px;
     margin: 20px auto;
-    font-family: 'Signika Negative', sans-serif;
+    
     text-align: center;
 }
 
@@ -43,7 +45,6 @@ section h2 {
     margin-left: 70px;
     transition: 0.2s;
     color: #4E4E4E;
-    font-family: 'Signika Negative', sans-serif;
 }
 
 .formulario_input {
@@ -57,8 +58,7 @@ section h2 {
     border-radius: 10px;
     transition: 0.2s all;
     color: #1EBAFD;
-    background-color: #D6D6D6;
-    font-family: 'Signika Negative', sans-serif;
+    background-color: white;
 }
 
 .formulario_input:focus .formulario_label {
@@ -88,7 +88,6 @@ section h2 {
     background-color: #1EBAFD;
     font-size: 25px;
     transition: 0.2s all;
-    font-family: 'Signika Negative', sans-serif;
 }
 
 .formulario .formulario_button:hover {
@@ -107,6 +106,7 @@ article {
     margin: 20px auto;
     border: 1px solid black;
     border-radius: 15px;
+    background-color: white;
 }
 
 .instalacion .imagen-instalacion img {
@@ -152,7 +152,6 @@ footer {
     color: white;
     padding: 10px;
     font-size: 18px;
-    font-family: 'Signika Negative', sans-serif;
     text-align: center;
 }
 

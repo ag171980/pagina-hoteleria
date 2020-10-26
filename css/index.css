@@ -8,7 +8,7 @@
 
 body {
 	font-family: "Signika Negative", sans-serif;
-	background-color:#cff6e4de !important;
+	background-color:#DBE9F3;
 }
 
 li{
@@ -26,7 +26,6 @@ li{
 .titulo h2,
 h3 {
 	font-size: 35px;
-	font-family: "Signika Negative", sans-serif;
 	color: #1ebafd;
 }
 
@@ -47,6 +46,7 @@ h3 {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	margin: 0 auto;
 }
 .shadow {
 	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
@@ -58,6 +58,7 @@ h3 {
 	max-width: 41.666667%;
 	line-height: 2em;
 	border-radius: 10px;
+	background-color: white;
 }
 .m-t-b {
 	margin: 10px 0 15px 0;
@@ -69,7 +70,6 @@ footer {
 	color: white;
 	padding: 10px;
 	font-size: 18px;
-	font-family: "Signika Negative", sans-serif;
 	text-align: center;
 }
 .ml {

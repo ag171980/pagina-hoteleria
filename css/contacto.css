@@ -5,12 +5,16 @@
     padding: 0;
 }
 
+body {
+    font-family: "Signika Negative", sans-serif;
+    background-color: #DBE9F3;
+}
+
 section {
     padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #cff6e4de;
 }
 
 section h2 {
@@ -18,7 +22,6 @@ section h2 {
     text-decoration: underline;
     font-size: 35px;
     margin: 20px auto;
-    font-family: 'Signika Negative', sans-serif;
     text-align: center;
 }
 
@@ -27,7 +30,6 @@ section h2 {
 section p {
     color: #1EBAFD;
     text-align: center;
-    font-family: 'Signika Negative', sans-serif;
     margin: 20px auto;
 }
 
@@ -56,7 +58,6 @@ section p {
     margin-left: 15px;
     transition: 0.2s;
     color: #4E4E4E;
-    font-family: 'Signika Negative', sans-serif;
 }
 
 .formulario_input {
@@ -70,7 +71,6 @@ section p {
     border-radius: 10px;
     transition: 0.2s all;
     color: #1EBAFD;
-    font-family: 'Signika Negative', sans-serif;
 }
 
 .formulario_input:focus .formulario_label {
@@ -96,7 +96,6 @@ section p {
     background-color: #1EBAFD;
     font-size: 17px;
     transition: 0.2s all;
-    font-family: 'Signika Negative', sans-serif;
 }
 
 .formulario .formulario_button:hover {
@@ -104,7 +103,7 @@ section p {
     cursor: pointer;
 }
 
-.link_mensajes{
+.link_mensajes {
     margin-top: 20px;
     text-decoration: none;
     font-family: sans-serif;
@@ -117,7 +116,7 @@ section p {
     flex-direction: row;
     justify-content: center;
     padding: 15px;
-    background-color:#0f3057;
+    background-color: #0f3057;
 }
 
 .informacion .informacion-box {
@@ -126,12 +125,11 @@ section p {
     width: 50vw;
     text-align: center;
     color: #1EBAFD;
-    font-family: 'Signika Negative', sans-serif;
     padding: 20px 0;
 }
 
 .tarjetas_img {
-margin-top: 10px;
+    margin-top: 10px;
 }
 
 .titulo-icono-contenedor {
@@ -207,7 +205,8 @@ margin-top: 10px;
         grid-template-columns: auto;
         padding: 5px;
     }
-    .informacion .informacion-box{
+
+    .informacion .informacion-box {
         margin: 10px 10px;
     }
 }
@@ -217,6 +216,5 @@ footer {
     color: white;
     padding: 10px;
     font-size: 18px;
-    font-family: 'Signika Negative', sans-serif;
     text-align: center;
 }
