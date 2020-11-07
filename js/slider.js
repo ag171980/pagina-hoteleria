@@ -26,8 +26,8 @@ function muestraSlides(n) {
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = 'none';
     }
-    for (i = 0; i < barras.length; i++) {
-        barras[i].className = barras[i].className.replace(' active', '');
+    for (j = 0; j < barras.length; j++) {
+        barras[j].className = barras[j].className.replace(' active', '');
     }
     slides[indice - 1].style.display = 'block';
     barras[indice - 1].className += ' active';

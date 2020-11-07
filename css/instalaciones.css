@@ -74,15 +74,16 @@ section h2 {
 }
 
 .formulario .formulario_button {
-    height: 15%;
-    padding: 15px;
+    height: 12%;
+    padding: 13px;
     position: relative;
-    left: -55px;
+    left: -52px;
+    top: 0.4px;
     margin: 0 auto;
     border-radius: 10px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
-    border: none;
+    border: 1px solid black;
     outline: none;
     color: white;
     background-color: #1EBAFD;
@@ -105,14 +106,15 @@ article {
     width: 45%;
     margin: 20px auto;
     border: 1px solid black;
-    border-radius: 15px;
+    border-radius: 10px;
     background-color: white;
+    box-shadow: 5px 6px 7px -7px rgba(0,0,0,0.75);
 }
 
 .instalacion .imagen-instalacion img {
     width: 100%;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .instalacion .texto-instalacion {
@@ -135,7 +137,9 @@ article {
     justify-content: flex-end;
     padding: 10px;
 }
-
+.instalacion .boton-instalacion button:hover{
+    cursor: pointer;
+}
 .instalacion .boton-instalacion button {
     background-color: #1EBAFD;
     border: none;
@@ -145,6 +149,7 @@ article {
     padding: 10px 15px;
     margin-right: 25px;
     border-radius: 10px;
+    box-shadow: 3px 3px 7px -7px rgba(0,0,0,0.75);
 }
 
 footer {

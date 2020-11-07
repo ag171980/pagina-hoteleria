@@ -113,7 +113,7 @@ class Interface {
                 cantSearch++;
 
             } else if (obj == '') {
-                divNew.innerHTML += `s
+                divNew.innerHTML += `
                     <div class="item">
                         <div>
                             <div>

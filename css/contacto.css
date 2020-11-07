@@ -187,7 +187,9 @@ section p {
     width: 100%;
     text-align: center;
 }
-
+.tarjetas_img{
+    width: 350px;
+}
 @media(max-width:1024px) {
     .informacion {
         display: grid;
@@ -196,6 +198,9 @@ section p {
 
     .informacion .informacion-box {
         width: auto;
+    }
+    .formulario_input{
+        width: 40vw;
     }
 }
 
@@ -208,6 +213,12 @@ section p {
 
     .informacion .informacion-box {
         margin: 10px 10px;
+    }
+    .tarjetas_img{
+        width: 290px;
+    }
+    .formulario_input{
+        width: 70vw;
     }
 }
 
