@@ -110,6 +110,62 @@ section p {
     color: #7f93b8;
 }
 
+.alerta {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    animation-name: message;
+    animation-duration: .5s;
+}
+
+.card {
+    position: absolute;
+    top: 34vh;
+    background-color: white;
+    height: 250px;
+    width: 500px;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img {
+    margin: 30px;
+}
+
+.card h2 {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.card a {
+    margin-top: 20px;
+}
+
+#volver {
+    cursor: pointer;
+}
+
+@keyframes message {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+
+    }
+}
+
 /*----DIV INFORMACION----*/
 .informacion {
     display: flex;
@@ -187,9 +243,12 @@ section p {
     width: 100%;
     text-align: center;
 }
-.tarjetas_img{
+
+.tarjetas_img {
     width: 350px;
 }
+
+
 @media(max-width:1024px) {
     .informacion {
         display: grid;
@@ -199,7 +258,8 @@ section p {
     .informacion .informacion-box {
         width: auto;
     }
-    .formulario_input{
+
+    .formulario_input {
         width: 40vw;
     }
 }
@@ -214,11 +274,19 @@ section p {
     .informacion .informacion-box {
         margin: 10px 10px;
     }
-    .tarjetas_img{
+
+    .tarjetas_img {
         width: 290px;
     }
-    .formulario_input{
+
+    .formulario_input {
         width: 70vw;
+    }
+}
+
+@media (max-width:425px) {
+    .card {
+        width: 300px;
     }
 }
 

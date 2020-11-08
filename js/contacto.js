@@ -12,6 +12,8 @@ class Interface {
     AgregarAlLocalStorage(obj) {
         let localStorageKeyName = 'data';
         let contact = [];
+        let alerta = document.getElementById('alerta');
+        alerta.innerHTML = '';
         let dataInLocalStorage = localStorage.getItem(localStorageKeyName);
         if (dataInLocalStorage !== null) {
             contact = JSON.parse(dataInLocalStorage);
@@ -20,7 +22,17 @@ class Interface {
         contact.push(obj);
         //Subo al LS lo que hay en contact con el nombre de data
         localStorage.setItem(localStorageKeyName, JSON.stringify(contact));
-
+        alerta.innerHTML = `
+        <div class="alerta">
+            <div class="card">
+                <img src="../img/check-green.png" height="75" alt="">
+                <h2>Mensaje enviado correctamente.</h2>
+                <a id="volver">Volver</a>
+            </div>
+        </div>`;
+        let volver = document.getElementById('volver').addEventListener('click', function (e) {
+            alerta.innerHTML = '';
+        });
         this.LimpiarFormulario();
         this.CargarLocalStorage();
     }
@@ -168,17 +180,31 @@ interface.CargarLocalStorage();
 let subtitulo = document.getElementById('contacto');
 
 if (subtitulo.textContent == "Contacto") {
-    document.getElementById('datos-formulario')
-        .addEventListener('submit', function (e) {
+    document.getElementById('submit')
+        .addEventListener('click', function (e) {
             let localStorageKeyName = 'data';
             let email = document.getElementById('email').value;
             let asunto = document.getElementById('asunto').value;
             let mensaje = document.getElementById('mensaje').value;
+            let alerta = document.getElementById('alerta');
+            alerta.innerHTML = '';
             const datos = new Datos(email, asunto, mensaje);
 
             const interface = new Interface();
 
             if (email == '' || asunto == '' || mensaje == '') {
+
+                alerta.innerHTML = `
+                <div class="alerta">
+                    <div class="card">
+                        <img src="../img/check-red.png" height="75" alt="">
+                        <h2>Por favor complete todos los campos.</h2>
+                        <a id="volver">Volver</a>
+                    </div>
+                </div>`;
+                let volver = document.getElementById('volver').addEventListener('click', function (e) {
+                    alerta.innerHTML = '';
+                });
                 return interface.MostrarMensaje('Complete los campos por favor', 'danger');
             }
             interface.AgregarAlLocalStorage(datos);

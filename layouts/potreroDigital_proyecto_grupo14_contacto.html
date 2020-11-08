@@ -68,14 +68,15 @@
             <label class="formulario_label" for="email">Email</label>
             <input type="email" class="formulario_input" name="email" id="email" required />
             <label class="formulario_label" for="asunto">Asunto</label>
-            <input type="text" class="formulario_input" name="asunto" id="asunto" required />
+            <input type="text" class="formulario_input" name="asunto" id="asunto" />
             <label class="formulario_label" for="mensaje">Mensaje</label>
             <textarea name="mensaje" id="mensaje" class="formulario_input" cols="30" rows="10"></textarea>
-            <input type="submit" name="submit" class="formulario_button" value="Enviar">
+            <input type="submit" name="submit" id="submit" class="formulario_button" value="Enviar">
         </form>
         <a class="link_mensajes" href="potreroDigital_proyecto_grupo14_mensajes.html">Ver mensajes ingresados</a>
     </section>
-
+    <div id="alerta">
+    </div>
     <div class="informacion">
         <div class="informacion-box">
             <h3>Metodos de pago</h3>
@@ -125,10 +126,9 @@
         <p>Desarrollado por Alexis Gutierrez, Ailin Baudin y Sebastian Rost</p>
     </footer>
 
-    <script src="../js/slider.js"></script>
     <script src="../js/input.js"></script>
     <script src="../js/contacto.js"></script>
-    <script src="../js/menu.js"></script>
+    <script src="../js/menu-slider.js"></script>
 </body>
 
 </html>
