@@ -16,7 +16,8 @@ $(document).ready(function () {
     });
 });
 
-
+ScrollReveal().reveal('.primero', { delay: 150, reset: true });
+ScrollReveal().reveal('.segundo', { delay: 250, reset: true });
 /*CODE SLIDER JS*/
 let indice = 1;
 muestraSlides(indice);
@@ -30,7 +31,7 @@ function posicionSlide(n) {
 
 setInterval(function tiempo() {
     muestraSlides(indice += 1);
-},5000);
+}, 5000);
 
 function muestraSlides(n) {
     let i;
