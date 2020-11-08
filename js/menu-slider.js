@@ -16,8 +16,8 @@ $(document).ready(function () {
     });
 });
 
-ScrollReveal().reveal('.primero', { delay: 150, reset: true });
-ScrollReveal().reveal('.segundo', { delay: 250, reset: true });
+ScrollReveal().reveal('.primero', { delay: 120, reset: true });
+ScrollReveal().reveal('.segundo', { delay: 220, reset: true });
 /*CODE SLIDER JS*/
 let indice = 1;
 muestraSlides(indice);
