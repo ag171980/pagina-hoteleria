@@ -101,7 +101,7 @@
 
 @media (max-width:768px) {
     .carrousel-title{
-        font-size: 30px;
+        font-size: 28px;
     } 
     .carrousel-title p{
         font-size: 25px;
@@ -112,6 +112,11 @@
         font-size: 25px;
     } 
     .carrousel-title p{
-        font-size: 20px;
+        font-size: 17px;
+    }
+}
+@media (max-width:425px){
+    .direcciones a{
+        margin: 5px;
     }
 }

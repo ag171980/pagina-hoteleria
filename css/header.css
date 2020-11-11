@@ -45,16 +45,17 @@ header .menu a:hover {
     height: 50px;
     cursor: pointer;
     transition: all 0.5s ease-in-out;
-    border: 2px solid black;
-    margin: 0px 20px;
-    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: 0px 30px;
+    
     display: none;
 }
 
 .desplegable {
     display: none;
 }
-
+/*creo barrita del medio*/
 .menu-btn .menu-btn_burger {
     width: 30px;
     height: 3px;
@@ -63,7 +64,7 @@ header .menu a:hover {
     box-shadow: 0 2px 5px rgba(233, 147, 249, 0.2);
     transition: all 0.5s ease-in-out;
 }
-
+/*creo barrita de arriba y de abajo */
 .menu-btn .menu-btn_burger::before,
 .menu-btn .menu-btn_burger::after {
     content: '';
@@ -75,21 +76,21 @@ header .menu a:hover {
     box-shadow: 0 2px 5px rgba(233, 147, 249, 0.2);
     transition: all 0.5s ease-in-out;
 }
-
+/*aca le digo que se mueva en el eje Y hacia arriba*/
 .menu-btn .menu-btn_burger::before {
     transform: translateY(-11px);
 }
-
+/*aca le digo que se mueva en el eje Y hacia abajo*/
 .menu-btn .menu-btn_burger::after {
     transform: translateY(11px);
 }
-
+/*muevo la barra hacia la izquierda y que desaparezca*/
 .menu-btn.open .menu-btn_burger {
     transform: translateX(-50px);
     background: transparent;
     box-shadow: none;
 }
-
+/*muevo la barra para formar la cruz*/
 .menu-btn.open .menu-btn_burger::before {
     transform: rotate(45deg) translate(35px, -35px);
 }
@@ -137,7 +138,7 @@ header .menu a:hover {
     }
 
     .desplegable {
-        background-color: #E3E3E3;
+        background-color: rgba(255, 255, 255, 0.6);
         display: none;
         position: absolute;
         height: auto;
