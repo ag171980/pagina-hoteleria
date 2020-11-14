@@ -9,17 +9,18 @@ body {
 }
 
 .tituloprincipal {
-    color: #1ebafd;
-    text-decoration: underline;
+    color: #222f3e;
+    text-decoration: none;
     font-size: 35px;
     margin: 20px auto;
     text-align: center;
+
 }
 
 
 .title2 {
-    color: #1ebafd;
-    text-decoration: underline;
+    color: #1e272e;
+    text-decoration:none;
     font-size: 25px;
 }
 
@@ -29,7 +30,7 @@ body {
 }
 
 .contenedor_texto p {
-    color: #1ebafd;
+    color: #1e272e;
     font-size: 15px;
     margin-top: 20px;
 }
@@ -68,9 +69,10 @@ body {
 }
 
 footer {
-    background-color: black;
-    color: white;
+    background-color: #222f3e;
+    color: #feca57;
     padding: 10px;
     font-size: 18px;
     text-align: center;
+    height: 200px;
 }

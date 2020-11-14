@@ -18,8 +18,8 @@ section {
 }
 
 section h2 {
-    color: #1EBAFD;
-    text-decoration: underline;
+    color: #222f3e;
+    text-decoration:none;
     font-size: 35px;
     margin: 20px auto;
     text-align: center;
@@ -28,7 +28,7 @@ section h2 {
 
 
 section p {
-    color: #1EBAFD;
+    color: #222f3e;
     text-align: center;
     margin: 20px auto;
 }
@@ -70,7 +70,7 @@ section p {
     outline: none;
     border-radius: 10px;
     transition: 0.2s all;
-    color: #1EBAFD;
+    color: #222f3e;
 }
 
 .formulario_input:focus .formulario_label {
@@ -93,13 +93,13 @@ section p {
     border: none;
     outline: none;
     color: white;
-    background-color: #1EBAFD;
+    background-color: #feca57;
     font-size: 17px;
     transition: 0.2s all;
 }
 
 .formulario .formulario_button:hover {
-    background-color: #1E92C4;
+    background-color: #222f3e;
     cursor: pointer;
 }
 
@@ -172,7 +172,7 @@ section p {
     flex-direction: row;
     justify-content: center;
     padding: 15px;
-    background-color: #0f3057;
+    background-color:#222f3e;
 }
 
 .informacion .informacion-box {
@@ -180,12 +180,13 @@ section p {
     margin: 10px 50px;
     width: 50vw;
     text-align: center;
-    color: #1EBAFD;
+    color: #feca57;
     padding: 20px 0;
+    flex-direction: column;
 }
 
-.tarjetas_img {
-    margin-top: 10px;
+.informacion .informacion-box-especial {
+    text-align: left;
 }
 
 .titulo-icono-contenedor {
@@ -196,6 +197,17 @@ section p {
 
 .titulo-icono {
     margin-left: 10px;
+}
+
+.informacion #metodos_pago {
+    color: #feca57;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.metodo_img {
+    font-size: 5rem;
+
 }
 
 .informacion .informacion-box h3 {
@@ -211,7 +223,7 @@ section p {
 }
 
 .informacion-box .social a {
-    color: #1EBAFD;
+    color: #feca57;
     text-decoration: none;
     margin: 0 10px;
 }
@@ -224,7 +236,7 @@ section p {
 }
 
 .informacion-box .direccion a {
-    color: #1EBAFD;
+    color: #feca57;
     text-decoration: none;
     padding: 0 10px;
 }
@@ -237,15 +249,11 @@ section p {
 }
 
 .informacion-box .telefono a {
-    color: #1EBAFD;
+    color: #feca57;
     text-decoration: none;
     padding: 0 10px;
     width: 100%;
     text-align: center;
-}
-
-.tarjetas_img {
-    width: 350px;
 }
 
 
@@ -290,10 +298,3 @@ section p {
     }
 }
 
-footer {
-    background-color: black;
-    color: white;
-    padding: 10px;
-    font-size: 18px;
-    text-align: center;
-}
