@@ -23,20 +23,9 @@ li {
     align-items: center;
     justify-content: center;
 }
-.titulo h2{
-	text-decoration: underline;
-}
-.titulo h2,
-h3 {
-    font-size: 35px;
-    color: #1ebafd;
-}
 
-.titulo i {
-    font-size: 35px;
-    color: #1ebafd;
-    padding: 0 5px;
-}
+
+
 
 .contenedor {
     display: flex;
@@ -71,13 +60,6 @@ h3 {
     margin-left: 1rem;
 }
 
-footer {
-    background-color: black;
-    color: white;
-    padding: 10px;
-    font-size: 18px;
-    text-align: center;
-}
 
 .ml {
     margin-left: 5%;
@@ -93,3 +75,135 @@ footer {
         max-width: 100%;
     }
 }
+/*----DIV INFORMACION----*/
+.informacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
+    background-color:#222f3e;
+}
+
+.informacion .informacion-box {
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 10px 50px;
+    width: 50vw;
+    text-align: center;
+    color: #feca57;
+    padding: 20px 0;
+    flex-direction: column;
+}
+
+.informacion .informacion-box-especial {
+    text-align: left;
+}
+
+.titulo-icono-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-icono {
+    margin-left: 10px;
+}
+
+.informacion #metodos_pago {
+    color: #feca57;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.metodo_img {
+    font-size: 5rem;
+
+}
+
+.informacion .informacion-box h3 {
+    font-size: 28px;
+}
+
+.informacion-box .social,
+.informacion-box .direccion,
+.informacion-box .telefono {
+    display: flex;
+    padding: 10px 15px;
+    font-size: 21px;
+}
+
+.informacion-box .social a {
+    color: #feca57;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.informacion-box .direccion {
+    display: flex;
+    align-items: center;
+    margin: 25px auto;
+
+}
+
+.informacion-box .direccion a {
+    color: #feca57;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.informacion-box .telefono {
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    margin: 5vh 0;
+}
+
+.informacion-box .telefono a {
+    color: #feca57;
+    text-decoration: none;
+    padding: 0 10px;
+    width: 100%;
+    text-align: center;
+}
+
+
+@media(max-width:1024px) {
+    .informacion {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .informacion .informacion-box {
+        width: auto;
+    }
+
+    .formulario_input {
+        width: 40vw;
+    }
+}
+
+@media(max-width:614px) {
+    .informacion {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 5px;
+    }
+
+    .informacion .informacion-box {
+        margin: 10px 10px;
+    }
+
+    .tarjetas_img {
+        width: 290px;
+    }
+
+    .formulario_input {
+        width: 70vw;
+    }
+}
+
+@media (max-width:425px) {
+    .card {
+        width: 300px;
+    }
+}
+

@@ -7,7 +7,7 @@
 
 body {
     font-family: "Signika Negative", sans-serif;
-    background-color: #DBE9F3;
+    background-color: white;
 }
 
 section {
@@ -93,7 +93,7 @@ section p {
     border: none;
     outline: none;
     color: white;
-    background-color: #feca57;
+    background-color: #e1b12c;
     font-size: 17px;
     transition: 0.2s all;
 }

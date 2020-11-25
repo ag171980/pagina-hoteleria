@@ -9,7 +9,7 @@ body {
 }
 
 .tituloprincipal {
-    color: #222f3e;
+    color: #790c5a;
     text-decoration: none;
     font-size: 35px;
     margin: 20px auto;
@@ -19,7 +19,7 @@ body {
 
 
 .title2 {
-    color: #1e272e;
+    color: #790c5a;
     text-decoration:none;
     font-size: 25px;
 }
@@ -30,7 +30,7 @@ body {
 }
 
 .contenedor_texto p {
-    color: #1e272e;
+    color: #9f5f80;
     font-size: 15px;
     margin-top: 20px;
 }
@@ -39,7 +39,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: white;
+    background-color: #f1d4d4;
     margin: 40px auto;
     padding: 20px;
     box-shadow: 1px 1px #d6e0f0, 5px 0 0.4em rgb(161, 159, 159);
@@ -68,11 +68,143 @@ body {
     }
 }
 
-footer {
+/* footer {
     background-color: #222f3e;
     color: #feca57;
     padding: 10px;
     font-size: 18px;
     text-align: center;
     height: 200px;
+} */
+/*----DIV INFORMACION----*/
+.informacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
+    background-color:#222f3e;
 }
+
+.informacion .informacion-box {
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 10px 50px;
+    width: 50vw;
+    text-align: center;
+    color: #feca57;
+    padding: 20px 0;
+    flex-direction: column;
+}
+
+.informacion .informacion-box-especial {
+    text-align: left;
+}
+
+.titulo-icono-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-icono {
+    margin-left: 10px;
+}
+
+.informacion #metodos_pago {
+    color: #feca57;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.metodo_img {
+    font-size: 5rem;
+
+}
+
+.informacion .informacion-box h3 {
+    font-size: 28px;
+}
+
+.informacion-box .social,
+.informacion-box .direccion,
+.informacion-box .telefono {
+    display: flex;
+    padding: 10px 15px;
+    font-size: 21px;
+}
+
+.informacion-box .social a {
+    color: #feca57;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.informacion-box .direccion {
+    display: flex;
+    align-items: center;
+    margin: 25px auto;
+
+}
+
+.informacion-box .direccion a {
+    color: #feca57;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.informacion-box .telefono {
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    margin: 5vh 0;
+}
+
+.informacion-box .telefono a {
+    color: #feca57;
+    text-decoration: none;
+    padding: 0 10px;
+    width: 100%;
+    text-align: center;
+}
+
+
+@media(max-width:1024px) {
+    .informacion {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .informacion .informacion-box {
+        width: auto;
+    }
+
+    .formulario_input {
+        width: 40vw;
+    }
+}
+
+@media(max-width:614px) {
+    .informacion {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 5px;
+    }
+
+    .informacion .informacion-box {
+        margin: 10px 10px;
+    }
+
+    .tarjetas_img {
+        width: 290px;
+    }
+
+    .formulario_input {
+        width: 70vw;
+    }
+}
+
+@media (max-width:425px) {
+    .card {
+        width: 300px;
+    }
+}
+
