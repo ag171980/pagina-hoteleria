@@ -33,6 +33,16 @@ section p {
     margin: 20px auto;
 }
 
+#carrousel_contacto{
+    filter: grayscale(80%);
+
+  }
+  #carrousel-contact{
+  
+    color:#e1b12c; 
+  }
+
+
 .formulario {
     margin: 3px auto;
     width: auto;
