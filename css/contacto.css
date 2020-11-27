@@ -41,7 +41,9 @@ section p {
   
     color:#e1b12c; 
   }
-
+ #primer-titulo{
+    color: #e1b12c !important;
+ }
 
 .formulario {
     margin: 3px auto;
